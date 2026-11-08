@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Faij's frontend developer portfolio." />
+  <title>Faij | Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">faij<span>.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Contact me <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="pulse"></span> Learning, building & growing</div>
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Faij<span>.</span><br><span class="headline-light">Frontend Developer</span></h1>
+        <p class="hero-text">I build clean, responsive and user-friendly websites with HTML, CSS and JavaScript. I’m always learning and turning ideas into web experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="social-note">BASED IN INDIA <span>·</span> OPEN TO LEARNING & COLLABORATION</div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>hello-world.js</span></div>
+          <div class="code-lines">
+            <p><b>01</b> <span class="purple">const</span> developer = {</p>
+            <p><b>02</b> &nbsp; name: <span class="green">'Faij'</span>,</p>
+            <p><b>03</b> &nbsp; skills: [</p>
+            <p><b>04</b> &nbsp;&nbsp; <span class="green">'HTML'</span>, <span class="green">'CSS'</span>,</p>
+            <p><b>05</b> &nbsp;&nbsp; <span class="green">'JavaScript'</span></p>
+            <p><b>06</b> &nbsp; ],</p>
+            <p><b>07</b> &nbsp; mindset: <span class="green">'Keep learning'</span></p>
+            <p><b>08</b> };</p>
+            <p class="comment"><b>09</b> // Let's build something!</p>
+          </div>
+        </div>
+        <div class="floating-tag tag-html"> &lt;/&gt; HTML</div>
+        <div class="floating-tag tag-css">✳ CSS</div>
+        <div class="floating-tag tag-js">JS</div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="section-content about-grid">
+        <h2>A little about<br><span>what I do.</span></h2>
+        <div>
+          <p class="large-copy">I’m an aspiring web developer who enjoys creating things for the internet.</p>
+          <p class="muted">I’m currently strengthening my frontend skills and learning by building small projects. My goal is to create useful, accessible and beautiful websites while improving a little every day.</p>
+          <div class="fact-row"><div><strong>03</strong><span>Core technologies</span></div><div><strong>∞</strong><span>Things to learn</span></div><div><strong>100%</strong><span>Curiosity</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-label">02 / SKILLS</div>
+        <div class="section-heading"><h2>My current <span>toolkit.</span></h2><p>The foundations I’m using to bring ideas to life.</p></div>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-icon orange">5</div><h3>HTML</h3><p>Semantic structure and accessible page content.</p><span class="skill-status">LEARNING & PRACTICING</span></article>
+          <article class="skill-card"><div class="skill-icon blue">✳</div><h3>CSS</h3><p>Layouts, responsive design, styling and animations.</p><span class="skill-status">LEARNING & PRACTICING</span></article>
+          <article class="skill-card"><div class="skill-icon yellow">JS</div><h3>JavaScript</h3><p>Interactive features and beginner-friendly logic.</p><span class="skill-status">LEARNING & PRACTICING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-label">03 / PROJECTS</div>
+      <div class="section-heading"><h2>Selected <span>practice.</span></h2><p>A few ideas to build, improve and make my own.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-preview preview-one"><div class="mini-window"><span></span><span></span><span></span><div class="mini-hero">Your next<br>great idea.</div><div class="mini-button"></div></div></div><div class="project-info"><div><h3>Landing Page</h3><p>A clean, responsive landing page concept.</p></div><span class="project-number">01</span></div><div class="chips"><span>HTML</span><span>CSS</span></div></article>
+        <article class="project-card"><div class="project-preview preview-two"><div class="weather-widget"><div>MONDAY · 10:30 AM</div><strong>28°</strong><span>☀️ &nbsp; Sunny day</span></div></div><div class="project-info"><div><h3>Weather UI</h3><p>A simple weather dashboard design concept.</p></div><span class="project-number">02</span></div><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="project-card"><div class="project-preview preview-three"><div class="todo-widget"><b>My tasks ✨</b><div>✓ &nbsp; Learn HTML</div><div>✓ &nbsp; Practice CSS</div><div class="todo-empty">○ &nbsp; Build something new</div></div></div><div class="project-info"><div><h3>To-do App</h3><p>A small interactive task-list concept.</p></div><span class="project-number">03</span></div><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+      </div>
+      <p class="project-note">These are portfolio practice concepts. Replace them with your own completed projects as you build them.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div class="section-label">04 / CONTACT</div>
+        <h2>Have an idea?<br><span>Let’s make it real.</span></h2>
+        <p>I’m always happy to learn, connect and discuss web projects.</p>
+        <a class="button button-light" href="mailto:hello@example.com">Email me <span>↗</span></a>
+        <small>Replace hello@example.com with your email address.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="logo" href="#home">faij<span>.</span></a><p>Designed & built with curiosity. © <span id="year"></span> Faij</p><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
